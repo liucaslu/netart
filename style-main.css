@@ -1,0 +1,307 @@
+/* main
+--------------------------------------------------------------------- */
+body {
+  background-color: #EEE7D0;
+}
+
+button,.inputButton{
+  background-color: #FF924E ;
+  border: 1px;
+  border-style: solid;
+  border-radius: 6px;
+  border-color: #FF924E ;
+  color: #1A1A1A;
+  padding: 7px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+}
+p {
+  font-family: Helvetica, sans-serif;
+  color: #333333;
+}
+
+/* index
+--------------------------------------------------------------------- */
+.bottom {
+  background-color: #EEE7D0;
+}
+
+.chunk {
+  display: flex;
+  margin: -10px;
+  margin-bottom: 0px;
+  background-color: #EEE7D0 ;
+}
+
+.chunkTwo{
+  width: 35%;
+  border-left: 3px solid #FFF9E7 ;
+}
+
+#what,#why {
+  font-size: 8vw;
+  font-weight: 600;
+  text-align: left;
+  color: #333333;
+  width: 66%;
+  height: auto;
+  padding: 4vw;
+  margin: 0;
+}
+
+.smallTitle {
+  font-size: 2vw;
+  font-weight: 600;
+  color: #333333;
+  padding: 4vw;
+  padding-left: 3vw;
+  padding-right: 4vw;
+  margin: 0;
+  margin-top: 2vw;
+
+}
+
+.smallSmall {
+  font-size: 2vw;
+  font-weight: 300;
+  color: #333333;
+  padding: 4vw;
+  padding-left: 6vw;
+  padding-top: 0;
+  margin: 0;
+  margin-top: -2vw;
+}
+
+input[type="text"] {
+  font-family: 'Times New Roman', serif;
+  font-weight: 300;
+}
+
+.goalReason {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  width: 200px;
+  height: 12px;
+  font-family: 'Times New Roman', serif;
+  font-weight: 600;
+}
+
+#goal,#reason{
+  padding-left: 3pt;
+}
+
+.fill {
+  background-color: #9EBFC1  ;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  margin-left: -10px;
+  margin-right: -10px;
+  /* margin-top: 1vw; */
+}
+
+#two {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#satisfied {
+  text-align: right;
+  font-size: 10px;
+  margin: 5px 0px;
+  margin-top: 8px;
+  font-weight: 600;
+}
+
+/* #firstButton {
+  float: right;
+} */
+/* index 2
+--------------------------------------------------------------------- */
+#indexTwo{
+  background-color: #EEE7D0;
+}
+
+.start {
+  font-weight: 600;
+  font-size: 15pt;
+  margin-bottom: 0px;
+  margin-left: 3px;
+
+}
+
+#started{
+  margin-top: 10px;
+  margin-left: 3px;
+}
+
+#progress {
+  background: white;
+  width: 605px;
+  margin-left: 3px;
+  border: .4px solid #333333;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  display: flex;
+
+}
+#messages{
+  display: flex;
+
+}
+#long{
+  position: absolute;
+}
+#stopped{
+  position: absolute;
+  margin-left: 3px;
+}
+#dash{
+  white-space: nowrap;
+  font-weight: 900;
+  margin-left: 15px;
+  /* color: #FF2900; */
+}
+
+#end{
+  margin-left: 549px;
+  position: absolute;
+  font-weight: 900;
+  color: #74DA40 ;
+
+}
+
+#long,#congrats {
+  font-size: 12pt;
+  font-weight: 600;
+  margin-right: 15vw;
+  margin-left: 5px;
+}
+
+.inputButton{
+    margin-bottom: 20px;
+    float: right;
+    color: #1A1A1A;
+}
+
+#quoteTime {
+  margin-left: 3px;
+}
+
+/* index 3
+--------------------------------------------------------------------- */
+#words {
+  font-size: 11vw;
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+  color: #1A1A1A
+}
+.pic {
+  width:100%;
+  height: auto;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  /* border: 4px;
+  border-style: groove;
+  border-color: #DF6C19 ; */
+  border-radius: 12px;
+}
+.picContainer {
+  line-height: 0;
+  column-count: 3;
+  column-gap: 16px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+#bot {
+  margin-top: 50px;
+}
+
+
+/* body {
+  background-color: #0B0B0B;
+} */
+
+/* index 4
+--------------------------------------------------------------------- */
+
+.quotes {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  margin: 2px;
+  border-radius: 12px;
+}
+
+#key {
+  display: flex;
+}
+
+#acknowledge{
+  font-size: 10pt;
+  padding-left: 4px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.situationFormat {
+  display: inline-block;
+}
+
+.situation {
+  font-size: 25pt;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', serif;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: .5px solid #333333;
+  color: #1A1A1A;
+}
+
+#startTwo {
+  margin-top: 30px;
+}
+
+#search {
+  margin-top: 10px;
+  margin-left: 3px;
+  margin-bottom: 20px;
+}
+/* index 5
+--------------------------------------------------------------------- */
+#faith {
+  font-size: 25pt;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 4px;
+}
+
+#best {
+  font-size: 10pt;
+  padding-left: 4px;
+  font-weight: 600;
+  margin-top: 30px;
+  line-height: 10px;
+}
+
+#restart {
+  margin-bottom: 30px;
+  margin-left: 3px;
+}
+
+#lastPic {
+  width: 35vw;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style-main.css" />
+<title>Motivation</title>
+</head>
+
+<body class="bottom">
+  <div class="chunk">
+    <p id="what">What is something that you keep pushing off?</P>
+    <div class="chunkTwo">
+      <p class="smallTitle">This could be a(n)...</p>
+      <p class="smallSmall">assignment <br>
+      personal project <br>
+      long-term goal <br>
+      short-term goal <br>
+      lifestyle change <br>
+      person to befriend <br>
+      skill to learn <br>
+      place to visit <br>
+      appointment to make <br>
+      book to read <br>
+      anything at all...</p>
+    </div>
+  </div>
+  <form action="/index2.html">
+    <div class="fill">
+      <label for="goal" class="goalReason">I have been putting off...</label>
+      <input type="text" id="goal" class="goalReason" name="goal" placeholder="exercising on a regular basis"><br><br>
+    </div>
+    <div class="chunk" id="two">
+      <p id="why">Why do you keep pushing this off?</p>
+      <div class="chunkTwo">
+        <p class="smallTitle">Be honest with yourself.</p>
+        <p class="smallSmall">(Answers will not be recorded beyond this session)</p>
+      </div>
+    </div>
+    <div class="fill">
+      <label for="reason" class="goalReason">Because...</label>
+      <input type="text" id="reason" class="goalReason" name="reason" placeholder="I keep making up excuses for myself"><br><br>
+    </div>
+    <p id="satisfied">Click here once you are satisfied with your answers.</p>
+  <input onclick="insert()" class="inputButton" id="firstButton" type="submit" value="Continue">
+</form>
+<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

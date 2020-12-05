@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style-main.css" />
+<title>Motivation</title>
+</head>
+
+<body id="indexTwo">
+<p class="start" id="startOne">Let's start with a click, shall we?</p>
+<button onclick="addDash()" id="started">Get Started</button>
+<div id="progress" style="visibility: hidden;">
+  <p id="dash" style="visibility: hidden;"></p>
+  <p id="end" style="visibility: hidden;">END</p>
+
+</div>
+
+
+<button style="visibility: hidden;" onclick="quit()" id="stopped">Click here to stop</button>
+
+
+<div id="messages">
+<p style="visibility: hidden;" id="long">It's a long way to to the end, and you've got more important things to do than be clicking a button. <br> <br>
+  But look, you're closer to the end than you were <span id="minutes"></span> seconds ago, all because you clicked that first time!
+</p>
+
+
+<p style="visibility: hidden;" id="congrats">Congratulations!!! You made it to the end, each step was small and it took some time, but you made it nonetheless. <br><br>
+  Little by little, bit by bit, you were able to reach your goal, all because you clicked that first time!
+</p>
+
+</div>
+
+<button style="visibility: hidden;" onclick="location.href='index3.html'" id="quoteTime">Continue</button>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
