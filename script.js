@@ -96,6 +96,7 @@ function googleSearch(){
   console.log(searchPhrase);
   console.log(searchPlus);
   console.log(completeSearch);
+  document.getElementById("startTwo").innerHTML = "How about another?";
   document.getElementById("search").innerHTML =  "This might help too!";
   event.target.onclick = secondSearch;
 }
